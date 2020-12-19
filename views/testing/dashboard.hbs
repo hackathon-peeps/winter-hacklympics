@@ -1,0 +1,12 @@
+<h1>Dashboard</h1>
+<h2>Welcome {{name}}</h2>
+{{#if businesses}}
+{{#each businesses}}
+{{!-- <a href="/businesses/{{name}}">{{hours}}</a> --}}
+<p>Name: {{name}}</p>
+<p>Hours: {{hours}}</p>
+<p>Content:{{content}}</p>
+{{/each}}
+{{else}}
+<p>There are no businesses</p>
+{{/if}}

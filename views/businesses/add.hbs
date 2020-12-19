@@ -1,0 +1,25 @@
+<p>add business</p>
+<form action="/businesses" method="POST">
+    <div class="input-field">
+        <input type="text" id="name" name="name">
+        <label for="name">What is the name of your business?</label>
+    </div>
+    <div class="input-field">
+        <input type="text" id="location" name="location">
+        <label for="location">Where is your business located?</label>
+    </div>
+    <div class="input-field">
+        <input type="text" id="hours" name="hours">
+        <label for="hours">When is your business open?</label>
+    </div>
+    <div class="input-field">
+        <label for="content">What does your store sell?</label>
+        <input type="text" id="content" name="content">
+    </div>
+    <div class="input-field">
+        <input type="text" id="tags" name="tags">
+        <label for="tags">Enter some tags for your business</label>
+    </div>
+    <input type="submit" value="Save" class="btn">
+    <a href="/account" class="btn orange">Cancel</a>
+</form>
