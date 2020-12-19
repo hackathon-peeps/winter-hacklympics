@@ -17,13 +17,15 @@ const BusinessSchema = new mongoose.Schema({
 		type: String,
 		required: true,
 	},
-	tags: [{
-		type: Array,
-    }],
-    user: {
-        type: mongoose.Schema.Types.ObjectId,
-        ref: "User"
-    }
+	tags: [
+		{
+			type: String,
+		},
+	],
+	user: {
+		type: mongoose.Schema.Types.ObjectId,
+		ref: "User",
+	},
 });
 
 module.exports = mongoose.model("Business", BusinessSchema);
