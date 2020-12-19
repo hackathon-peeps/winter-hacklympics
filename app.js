@@ -33,12 +33,6 @@ app.use(express.static(path.join(__dirname, "public")));
 // Middleware
 app.use(cors());
 app.use(bodyParser.urlencoded({ extended: true }));
-// app.use(
-// 	cookieSession({
-// 		name: "session",
-// 		keys: ["key1", "key2"],
-// 	})
-// );
 // Session
 app.use(
 	session({
