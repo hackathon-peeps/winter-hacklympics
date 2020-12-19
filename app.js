@@ -49,7 +49,7 @@ app.use(passport.session());
 // Routes
 app.use("/", require("./routes/index"));
 app.use("/auth", require("./routes/auth"));
-app.use("/businesses", require("./routes/businesses"));
+app.use("/account", require("./routes/account"));
 
 // create connection
 connection();

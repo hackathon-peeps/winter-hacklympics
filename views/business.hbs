@@ -24,10 +24,19 @@
       <p>Use our naviagtion tool! Here you can find various of businesses, ranging from bakeries to homemade jewelry
         for your loved one!</p>
       <br>
-
-
-
-      </p>
+      <form action="/businesses/search"></form>
+      {{#if businesses}}
+      {{#each businesses}}
+      <p>---</p>
+      <p>name: {{name}}</p>
+      <p>location: {{location}}</p>
+      <p>hours: {{hours}}</p>
+      <p>content: {{content}}</p>
+      <p>tags: {{tags}}</p>
+      {{/each}}
+      {{else}}
+      <p>There are no businesses that match your query</p>
+      {{/if}}
 
     </div>
   </div>

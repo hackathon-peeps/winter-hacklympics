@@ -27,10 +27,12 @@ router.get("/login", (req, res) => {
 	});
 });
 
-router.get("/businesses", (req, res) => {
+router.get("/businesses", async (req, res) => {
+	const businesses = await Business.find().lean();
 	res.render("business", {
 		title: "Find",
 		style: "business",
+		businesses,
 	});
 });
 

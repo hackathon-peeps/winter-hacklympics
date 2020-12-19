@@ -1,23 +1,23 @@
-<p>edit business</p>
-<form action="/businesses" method="POST">
+<p>Edit business</p>
+<form action="/account" method="POST">
     <div class="input-field">
-        <input type="text" id="name" name="name">
+        <input type="text" id="name" name="name" value="{{business.name}}">
         <label for="name">What is the name of your business?</label>
     </div>
     <div class="input-field">
-        <input type="text" id="location" name="location">
+        <input type="text" id="location" name="location" value="{{business.location}}">
         <label for="location">Where is your business located?</label>
     </div>
     <div class="input-field">
-        <input type="text" id="hours" name="hours">
+        <input type="text" id="hours" name="hours" value="{{business.hours}}">
         <label for="hours">When is your business open?</label>
     </div>
     <div class="input-field">
         <label for="content">What does your store sell?</label>
-        <input type="text" id="content" name="content">
+        <input type="text" id="content" name="content" value="{{business.content}}">
     </div>
     <div class="input-field">
-        <input type="text" id="tags" name="tags">
+        <input type="text" id="tags" name="tags" value="{{business.tags}}">
         <label for="tags">Enter some tags for your business</label>
     </div>
     <input type="submit" value="Save" class="btn">
