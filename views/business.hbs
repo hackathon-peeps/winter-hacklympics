@@ -8,18 +8,22 @@
         for your loved one!</p>
       <br>
       <form action="/businesses/search" , method="GET">
-        <input type="text" name="name" placeholder="Search...">
+        <input id="input-form" type="text" name="name" placeholder="Search...">
         {{!-- <button type="button" class="btn btn-secondary">Submit</button> --}}
-        <input type="submit" value="Save" class="btn">
+        <input id="save-button" type="submit" value="Search" class="btn">
       </form>
+      <br/><br />
+      <h3>Local Businesses: </h3><br/>
       {{#if businesses}}
       {{#each businesses}}
-      <p>---</p>
-      <p>name: {{name}}</p>
-      <p>location: {{location}}</p>
-      <p>hours: {{hours}}</p>
-      <p>content: {{content}}</p>
-      <p>tags: {{tags}}</p>
+      <div class="card">
+      <p><u>Name</u>: {{name}}</p>
+      <p><u>Location</u>: {{location}}</p>
+      <p><u>Hours</u>: {{hours}}</p>
+      <p><u>Content</u>: {{content}}</p>
+      <p><u>Tags</u>: {{tags}}</p>
+      </div>
+      <br/>
       {{/each}}
       {{else}}
       <p>There are no businesses that match your query</p>
