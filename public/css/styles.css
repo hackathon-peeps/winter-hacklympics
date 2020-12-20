@@ -11,7 +11,7 @@
   /**background: linear-gradient(right, #9c27b0,#8ecdff);
   background:linear-gradient(90deg, #9A76A5 33%,#C89DD8 40%, #E6DED3 60%);
   background: linear-gradient(to left,#211522,#613659,#D3B1C2);*/
-  background: linear-gradient(to left, #9A76A5,#C89DD8,#E6DED3)
+  background: linear-gradient(to left, #3E479C,#548EE7,#E6DED3)
 }
 nav{
   width: 80%;
@@ -66,8 +66,8 @@ nav{
   height: 1000px;
   position: absolute;
   top: 0;
-  left:0;
-  border-radius: 50%;
+  left:100;
+  border-radius: 75%;
  transform : rotate(0deg);
  transition: 1s;
 
@@ -97,32 +97,33 @@ nav{
 
 .one{
   top: 450px;
-  right: -50px;
+  right: -200px;
+  
 }
 
 .two{
-  top: 150px;
+  top: 50px;
   left: 350px;
   transform: rotate(-90deg);
 }
 
 .three{
   bottom: 450px;
-  left: 50px;
+  left: 0px;
   transform: rotate(-180deg);
 }
 
 .four{
-  bottom: 150px;
+  bottom: 50px;
   right: 350px;
   transform: rotate(-270deg);
 }
  
 .bigLogo {
-  width: 200px;
+  width: 300px;
   position: absolute;
   top: 50%;
-  left: 40%;
+  left: 45%;
   transform: translateY(-50%);
   z-index: 1;
 }
@@ -150,15 +151,38 @@ nav{
   cursor: pointer;
   transform: rotate(180deg);
 }
-.overlay{
+.overlay3{
   width: 0;
   height: 0;
   border-top: 500px solid #fff;
-  border-right: 500px solid transparent;
-  border-bottom: 500px solid #fff;
-  border-left: 500px solid #fff;
+  border-right: 350px solid transparent;
+  border-bottom: 600px solid #fff;
+  border-left: 550px solid #fff;
   position: absolute;
   left:0;
   top: 0;
-
 }
+.overlay2{
+  width: 0;
+  height: 0;
+  border-top: 500px solid#F59FAC;
+  border-right: 550px solid transparent;
+  border-bottom: 700px solid#F59FAC;
+  border-left: 650px solid#F59FAC;
+  position: absolute;
+  left:0;
+  top: 0;
+}
+
+.overlay{
+  width: 0;
+  height: 0;
+  border-top: 500px solid #603F8B;
+  border-right: 750px solid transparent;
+  border-bottom: 800px solid #603F8B;
+  border-left: 750px solid#603F8B;
+  position: absolute;
+  left:0;
+  top: 0;
+}
+

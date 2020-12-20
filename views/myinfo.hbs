@@ -2,33 +2,22 @@
 <section id="header">
   <div class="container">
     <div class="header-text">
-      {{!-- <h1>My Information</h1>
+      <h1>My Information</h1>
       <br>
       <p>→ Update information.</p>
       <br>
 
 
-      </p> --}}
-      <p>Hello, {{name}}</p>
-      <p>Your businesses:</p>
-      <a href="/account/add">add a business</a>
-      {{#if businesses}}
-      {{#each businesses}}
-      <fieldset>
-        <p>Name: {{name}}</p>
-        <p>Hours: {{hours}}</p>
-        <p>Content:{{content}}</p>
-        <p>Tags:{{tags}}</p>
-        <a href="/account/edit/{{_id}}" class="btn btn-float">
-          edit
-        </a>
-      </fieldset>
-      {{/each}}
-      {{else}}
-      <p>You have no businesses</p>
-      {{/if}}
+      </p>
 
     </div>
   </div>
 
 </section>
+
+<footer id="mainFooter">
+  <p>Copyright &copy; 2020 Iconic Hackathon Team</p>
+</footer>
+</body>
+
+</html>
