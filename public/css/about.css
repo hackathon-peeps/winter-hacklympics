@@ -61,46 +61,4 @@ nav {
 
 
 
-<html>
-<head>
-<style>
-figure {
-  border: 1px #cccccc solid;
-  padding: 4px;
-  margin: auto;
-}
 
-figcaption {
-  background-color: black;
-  color: white;
-  font-style: italic;
-  padding: 2px;
-  text-align: center;
-}
-</style>
-</head>
-<body>
-
-<figure>
-<img src="https://i.postimg.cc/N0tYDXbg/output-onlinepngtools-6.png" alt="Megha" width=156 height=196/>
-   <figcaption>Megha</figcaption>
-   </figure>
-   <figure>
-<img src="https://i.postimg.cc/4dmJHgBt/output-onlinepngtools-4.png" alt="Roshni" width=134 height=183> 
-    <figcaption>Roshni</figcaption>   
-   </figure>
-   <figure>
-<img src="https://i.postimg.cc/MZBSCt4W/output-onlinepngtools-5.png" alt="Jerry"  width=156 height=196">
-    <figcaption>Jerry</figcaption>                                                                                                    
-   </figure>
-   <figure>                                                                                                    
-<img src="https://i.postimg.cc/5tzg4YMF/output-onlinepngtools-3.png" alt="Aarushi"  width=210 height=200>
-    <figcaption>Aarushi</figcaption>                                                                               
-   </figure>
-   <figure>                                                                               
-<img src="https://i.postimg.cc/GtfTTKF3/output-onlinepngtools-2.png" alt="Vedha"  width=140 height=170>
-    <figcaption>Vedha</figcaption>                                                                             
-   </figure>
-
-</body>
-</html>
